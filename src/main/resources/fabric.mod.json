@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "afkassistant",
+  "version": "${version}",
+  "name": "AFK Assistant",
+  "description": "Client-side helper with configurable area, block filters and command reminders.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.afkassistant.AfkAssistantClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
